@@ -46,7 +46,7 @@ include_once(__DIR__ . "/../include/header.php");
 
         <div class="card-footer bg-white border-0 pb-4">
           <div class="d-flex justify-content-center gap-2">
-            <a class="btn btn-sm btn-outline-warning" href="./alterar.php?id=<?= $p->getId(); ?>">Editar</a>
+            <a class="btn btn-sm btn-outline-primary" href="./alterar.php?id=<?= $p->getId(); ?>">Editar</a>
             <a class="btn btn-sm btn-outline-danger" href="./excluir.php?id=<?= $p->getId(); ?>" onclick="return confirm('Excluir personagem?');">Excluir</a>
           </div>
         </div>
