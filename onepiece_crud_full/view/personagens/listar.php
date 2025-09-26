@@ -44,7 +44,7 @@ include_once(__DIR__ . "/../include/header.php");
               </td>
               <td class="fw-semibold"><?= htmlspecialchars($p->getNome()); ?></td>
               <td><?= (int)$p->getIdade(); ?></td>
-              <!-- Dar um olhada -->
+      
               <td><span class="badge text-bg-secondary"><?= htmlspecialchars($p->getRaca()->getNome() ?? ""); ?></span></td>
               <td><span class="badge text-bg-dark"><?= htmlspecialchars($p->getAfiliacao()->getNome() ?? ""); ?></span></td>
               <td>฿ <?= number_format($p->getRecompensa(), 2, ',', '.'); ?></td>
