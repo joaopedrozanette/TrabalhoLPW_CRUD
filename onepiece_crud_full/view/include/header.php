@@ -27,7 +27,7 @@
 <body>
 
 <nav class="navbar bg-transparent position-absolute top-0 start-50 translate-middle-x" style="z-index:1000;">
-  <a class="navbar-brand" href="./index.php">
+  <a class="navbar-brand">
     <img src="../../img/One_Piece_Logo.png" alt="One Piece" height="140">
   </a>
 </nav>

@@ -48,7 +48,7 @@ include_once(__DIR__ . "/../include/header.php");
 
 <div class="d-flex justify-content-between align-items-center mb-3">
   <h1 class="h3 mb-0"><?= !empty($dados['id']) ? 'Editar' : 'Novo' ?> Personagem</h1>
-  <a class="btn btn-outline-secondary" href="listar.php">Voltar</a>
+  <a class="btn btn-danger" href="listar.php">Voltar</a>
 </div>
 
 <?php if($erros): ?>
@@ -121,7 +121,7 @@ include_once(__DIR__ . "/../include/header.php");
 
       <div class="col-12 d-flex gap-2">
         <button class="btn btn-success">Salvar</button>
-        <a class="btn btn-outline-secondary" href="listar.php">Cancelar</a>
+        <a class="btn btn-outline-danger" href="listar.php">Cancelar</a>
       </div>
     </form>
   </div>
